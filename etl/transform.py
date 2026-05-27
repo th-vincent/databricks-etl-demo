@@ -1,5 +1,5 @@
 def transform(df):
-    df["amount_eur"] = df["amount"] * 0.93
+    df["amount_eur"] = df["amount"] * 0.95
     return df
 
 def add_kpi(df):
